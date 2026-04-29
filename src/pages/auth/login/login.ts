@@ -1,3 +1,4 @@
+console.log("Hola");
 import type { IUser } from "../../../types/IUser";
 import { saveUser } from "../../../utils/localStorage";
 //import type { Rol } from "../../../types/Rol";
