@@ -1,4 +1,4 @@
-console.log("Hola");
+
 import type { IUser } from "../../../types/IUser";
 import { saveUser } from "../../../utils/localStorage";
 //import type { Rol } from "../../../types/Rol";
@@ -35,21 +35,4 @@ if (!valueEmail) {
 });
 
 
-  //const valuePassword = inputPassword.value;
-  //const valueRol = selectRol.value as Rol;
-
-  //if (valueRol === "admin") {
-  //  navigate("/src/pages/admin/home/home.html");
-  //} else if (valueRol === "client") {
-  //  navigate("/src/pages/client/home/home.html");
-  //}
-
-  //const user: IUser = {
-    //email: valueEmail,
-    //role: valueRol,
-    //loggedIn: true,
-  //};
-  //const parseUser = JSON.stringify(saveUser);
-  //localStorage.setItem("userData", parseUser);
-
-//});
+  /

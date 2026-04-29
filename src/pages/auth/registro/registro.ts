@@ -1,7 +1,5 @@
 import type { IUser } from "../../../types/IUser";
 
-console.log("✅ registro.ts ejecutado");
-
 const form = document.getElementById("registroForm") as HTMLFormElement | null;
 
 if (!form) {
