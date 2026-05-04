@@ -35,6 +35,7 @@ if (!form) {
     // Crear nuevo usuario
     const newUser: IUser = {
       email,
+      password,
       loggedIn: false,
       role: "client",
     };
